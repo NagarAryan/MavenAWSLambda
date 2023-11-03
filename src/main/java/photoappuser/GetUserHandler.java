@@ -23,6 +23,7 @@ public class GetUserHandler implements RequestHandler<APIGatewayProxyRequestEven
 
         APIGatewayProxyResponseEvent response = new APIGatewayProxyResponseEvent();
         response.withStatusCode(200).withBody(returnValue.toString());
+
         return null;
     }
 }
